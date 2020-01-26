@@ -48,7 +48,7 @@ def handle_search_request(input_cmd_str, project_directory, theme, last_column_s
 				logger_console.log_on_console_error("pyperclip package not found")
 				logger_console.log_on_console_error("To enable auto-copy execute the following command:")
 				logger_console.log_on_console("")
-				logger_console.log_on_console("pip install pyperclip")
+				logger_console.log_on_console("pip3 install pyperclip")
 				logger_console.log_on_console("")
 	except:
 		logging.debug("your terminal does not support automatic input injection")
